@@ -1,0 +1,31 @@
+.product-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.2rem;
+  width: 240px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.6rem;
+}
+
+.product-card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.product-card p strong {
+  color: #000;
+}

@@ -1,0 +1,17 @@
+
+# Environment Files (exclude real secrets)
+.env
+.env.local
+.env.development.local
+.env.production.local
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.production.local
+
+# Allow example env files to be committed
+!*.env.example
+!**/*.env.example
+
+node_modules
+
